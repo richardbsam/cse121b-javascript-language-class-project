@@ -1,4 +1,4 @@
-/* LESSON 3 - Programming Tasks */
+/* LESSON 4 - Programming Tasks */
 
 /* Profile Object  */
 let myProfile = {
@@ -7,13 +7,13 @@ let myProfile = {
     favoriteFoods: [
         'Ekpang Nkukwo',
         'Jellof Rice',
-        'Beans',
+        'Beans & Yam',
         'Ice cream'
     ],
     hobbies:[
         'Reading',
         'Surfing the Internet',
-        'Listening to Music'
+        'Pet Keeping'
     ],
     placesLived:[]
 };
@@ -37,8 +37,6 @@ myProfile.placesLived.push(
         length: '10 years'
     }
 );
-
-console.log(myProfile);
 
 
 /* DOM Manipulation - Output */

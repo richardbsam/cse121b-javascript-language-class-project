@@ -1,9 +1,7 @@
 /* W02-Task - Profile Home Page */
 
 
-
 /* Step 1 - Setup type tasks - no code required */
-
 
 
 /* Step 2 - Variables */
@@ -25,7 +23,7 @@ const altText = `Profile image of ${fullName}`;
 imageElement.setAttribute('alt', altText);
 
 /* Step 5 - Array */
-let favoriteFoods = ['Ekpang Nkukwo','Jellof Rice','Beans','Ice cream'];
+let favoriteFoods = ['Ekpang Nkukwo','Jellof Rice','Beans & Yam','Ice cream'];
  
 // Display the initial array
 foodElement.innerHTML = `${favoriteFoods}`;
